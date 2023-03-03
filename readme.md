@@ -36,31 +36,6 @@ This repository contains the following WebdriverIO tests:
 | Offers   | offers.spec.js                       | This test mocks the GPS location for Singapore and verifies that the product offers applicable for the Singapore location are shown.   |
 | User     | user.spec.js                        | The first test verifies that existing orders are shown for user: "existing_orders_user". The second test verifies if a user can add product to the favourites. |
 
-## Test infrastructure environments
-
-- [On-premise/self-hosted](#on-premise--self-hosted)
-- [BrowserStack](#browserstack)
-
-## Configuring the maximum parallel test threads for this repository
-
-  For all the parallel run configuration profiles, you can configure the maximum parallel test threads by changing the settings below.
-
-- BrowserStack
-    
-    `resources/conf/wdio-bstack-parallel.conf.js`
-
-    ```js
-    capabilities: [{
-    maxInstances: 5,
-    ...
-    ```
-
-## Test Reporting
-
-- [Allure reports](#generating-allure-reports)
-
----
-
 # BrowserStack
 
 [BrowserStack](https://browserstack.com) provides instant access to 2,000+ real mobile devices and browsers on a highly reliable cloud infrastructure that effortlessly scales as testing needs grow.
