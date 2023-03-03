@@ -85,7 +85,7 @@ More information on [Upload apps from filesystem](https://www.browserstack.com/d
 
 In this section, we will run the E2E tests in parallel on a multiple device on Browserstack. Refer to `capabilities` object in `resources/conf/wdio-bstack.conf.js` file to change test capabilities for this configuration.
 
-- How to run the test?
+- How to run the test??
 
   - To run the entire test suite in parallel on a single BrowserStack device type, use the following command:
     ```sh
