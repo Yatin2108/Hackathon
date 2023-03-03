@@ -30,11 +30,6 @@ This repository contains the following WebdriverIO tests:
 | Module   | Test name                          | Description |
 | ---      | ---                                | --- |
 | E2E      | e2e.spec.js                       | This test scenario verifies successful product purchase lifecycle end-to-end. It demonstrates the [Page Object Model design pattern](https://www.browserstack.com/guide/page-object-model-in-selenium) and is also the default test executed in all the single test run profiles. |
-| Login    | login.spec.js                       | This test verifies the login workflow with different types of valid login users. |
-| Login    | login_data_driven.spec.js             | This test verifies the login for all error cases in a datadriven way |
-| Login    | login_requested.spec.js              | This test verifies that the login page is shown when you access the favourites page with being logged in  |
-| Offers   | offers.spec.js                       | This test mocks the GPS location for Singapore and verifies that the product offers applicable for the Singapore location are shown.   |
-| User     | user.spec.js                        | The first test verifies that existing orders are shown for user: "existing_orders_user". The second test verifies if a user can add product to the favourites. |
 
 # BrowserStack
 
@@ -89,7 +84,7 @@ In this section, we will run the E2E tests in parallel on a multiple device on B
 
   - To run the entire test suite in parallel on a single BrowserStack device type, use the following command:
     ```sh
-    npm run bstack-single
+    npm run test
     ```
 > Note: By default, this execution would run maximum 2 test threads in parallel on BrowserStack. The parallels can eb modified by updated the `maxInstances` inside `capabilities` object in `resources/conf/wdio-bstack.conf.js`.
 
@@ -102,6 +97,10 @@ In this section, we will run the E2E App-Percy Visual Regression Tests. Refer to
   - To run your App-Percy Visual Regression Test Suite across BrowserStack Devices, use the following command:
     ```sh
     percy app:exec -- wdio run resources/conf/wdio-bstack.conf.js
+    ```
+  - To run the entire test suite in parallel on a single BrowserStack device type, use the following command:
+    ```sh
+    npm run percy:test
     ```
 > Note: By default, this execution would run maximum 2 test threads in parallel on BrowserStack. The parallels can eb modified by updated the `maxInstances` inside `capabilities` object in `resources/conf/wdio-bstack.conf.js`.
 
