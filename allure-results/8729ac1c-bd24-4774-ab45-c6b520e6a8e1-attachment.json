@@ -1,0 +1,258 @@
+{
+  "platform": "ANDROID",
+  "webStorageEnabled": false,
+  "takesScreenshot": true,
+  "javascriptEnabled": true,
+  "databaseEnabled": false,
+  "networkConnectionEnabled": true,
+  "locationContextEnabled": false,
+  "warnings": {},
+  "desired": {
+    "systemPort": 8200,
+    "udid": "28261FDH20003W",
+    "chromedriverPort": 18080,
+    "device": "google pixel 7",
+    "os_version": "13.0",
+    "autoGrantPermissions": true,
+    "platformName": "Android",
+    "browserstack.is_hub_canary": "false",
+    "acceptSslCert": false,
+    "detected_language": "webdriver/7.27.0",
+    "new_bucketing": true,
+    "osVersion": "13.0",
+    "deviceName": "Android",
+    "buildName": "browserstack-percy-appium-webdriverio - 1677839269615",
+    "projectName": "browserstack-percy-appium-webdriverio",
+    "platform": "ANDROID",
+    "chromeOptions": {
+      "w3c": false
+    },
+    "browserstack.minOSVersion": "5.0",
+    "appPackage": "com.browserstack.demo.app",
+    "appActivity": "host.exp.exponent.MainActivity",
+    "bundleID": "com.browserstack.demo.app",
+    "bundleId": "com.browserstack.demo.app",
+    "nativeWebScreenshot": true,
+    "version": "",
+    "mobile": {
+      "browser": "mobile",
+      "version": "Google Pixel 7-13.0"
+    },
+    "orig_os": "android",
+    "64bit": false,
+    "automationName": "uiautomator2",
+    "disableSuppressAccessibilityService": true,
+    "adbExecTimeout": 120000,
+    "uiautomator2ServerLaunchTimeout": 60000,
+    "newCommandTimeout": 0,
+    "browserstack.appium_version": "1.17.0",
+    "skipServerInstallation": true,
+    "realMobile": "true",
+    "acceptSslCerts": false,
+    "enablePerformanceLogging": false,
+    "chromedriverPorts": [
+      [
+        18100,
+        18110
+      ]
+    ],
+    "chromedriverArgs": [
+      "--adb-port=5038"
+    ]
+  },
+  "systemPort": 8200,
+  "udid": "28261FDH20003W",
+  "chromedriverPort": 18080,
+  "device": "google pixel 7",
+  "os_version": "13.0",
+  "autoGrantPermissions": true,
+  "platformName": "Android",
+  "browserstack.is_hub_canary": "false",
+  "acceptSslCert": false,
+  "detected_language": "webdriver/7.27.0",
+  "new_bucketing": true,
+  "osVersion": "13.0",
+  "deviceName": "28261FDH20003W",
+  "buildName": "browserstack-percy-appium-webdriverio - 1677839269615",
+  "projectName": "browserstack-percy-appium-webdriverio",
+  "chromeOptions": {
+    "w3c": false
+  },
+  "browserstack.minOSVersion": "5.0",
+  "appPackage": "com.browserstack.demo.app",
+  "appActivity": "host.exp.exponent.MainActivity",
+  "bundleID": "com.browserstack.demo.app",
+  "bundleId": "com.browserstack.demo.app",
+  "nativeWebScreenshot": true,
+  "version": "",
+  "mobile": {
+    "browser": "mobile",
+    "version": "Google Pixel 7-13.0"
+  },
+  "orig_os": "android",
+  "64bit": false,
+  "automationName": "uiautomator2",
+  "disableSuppressAccessibilityService": true,
+  "adbExecTimeout": 120000,
+  "uiautomator2ServerLaunchTimeout": 60000,
+  "newCommandTimeout": 0,
+  "browserstack.appium_version": "1.17.0",
+  "skipServerInstallation": true,
+  "realMobile": "true",
+  "acceptSslCerts": false,
+  "enablePerformanceLogging": false,
+  "chromedriverPorts": [
+    [
+      18100,
+      18110
+    ]
+  ],
+  "chromedriverArgs": [
+    "--adb-port=5038"
+  ],
+  "deviceUDID": "28261FDH20003W",
+  "deviceApiLevel": 33,
+  "platformVersion": "13",
+  "deviceScreenSize": "1080x2400",
+  "deviceScreenDensity": 420,
+  "deviceModel": "Pixel 7",
+  "deviceManufacturer": "Google",
+  "pixelRatio": 2.625,
+  "statBarHeight": 118,
+  "viewportRect": {
+    "left": 0,
+    "top": 118,
+    "width": 1080,
+    "height": 2101
+  },
+  "sessionId": "a0561b6745dd9f41e0e49f03046489c9478ffecd",
+  "capabilities": {
+    "platform": "ANDROID",
+    "webStorageEnabled": false,
+    "takesScreenshot": true,
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "networkConnectionEnabled": true,
+    "locationContextEnabled": false,
+    "warnings": {},
+    "desired": {
+      "systemPort": 8200,
+      "udid": "28261FDH20003W",
+      "chromedriverPort": 18080,
+      "device": "google pixel 7",
+      "os_version": "13.0",
+      "autoGrantPermissions": true,
+      "platformName": "Android",
+      "browserstack.is_hub_canary": "false",
+      "acceptSslCert": false,
+      "detected_language": "webdriver/7.27.0",
+      "new_bucketing": true,
+      "osVersion": "13.0",
+      "deviceName": "Android",
+      "buildName": "browserstack-percy-appium-webdriverio - 1677839269615",
+      "projectName": "browserstack-percy-appium-webdriverio",
+      "platform": "ANDROID",
+      "chromeOptions": {
+        "w3c": false
+      },
+      "browserstack.minOSVersion": "5.0",
+      "appPackage": "com.browserstack.demo.app",
+      "appActivity": "host.exp.exponent.MainActivity",
+      "bundleID": "com.browserstack.demo.app",
+      "bundleId": "com.browserstack.demo.app",
+      "nativeWebScreenshot": true,
+      "version": "",
+      "mobile": {
+        "browser": "mobile",
+        "version": "Google Pixel 7-13.0"
+      },
+      "orig_os": "android",
+      "64bit": false,
+      "automationName": "uiautomator2",
+      "disableSuppressAccessibilityService": true,
+      "adbExecTimeout": 120000,
+      "uiautomator2ServerLaunchTimeout": 60000,
+      "newCommandTimeout": 0,
+      "browserstack.appium_version": "1.17.0",
+      "skipServerInstallation": true,
+      "realMobile": "true",
+      "acceptSslCerts": false,
+      "enablePerformanceLogging": false,
+      "chromedriverPorts": [
+        [
+          18100,
+          18110
+        ]
+      ],
+      "chromedriverArgs": [
+        "--adb-port=5038"
+      ]
+    },
+    "systemPort": 8200,
+    "udid": "28261FDH20003W",
+    "chromedriverPort": 18080,
+    "device": "google pixel 7",
+    "os_version": "13.0",
+    "autoGrantPermissions": true,
+    "platformName": "Android",
+    "browserstack.is_hub_canary": "false",
+    "acceptSslCert": false,
+    "detected_language": "webdriver/7.27.0",
+    "new_bucketing": true,
+    "osVersion": "13.0",
+    "deviceName": "28261FDH20003W",
+    "buildName": "browserstack-percy-appium-webdriverio - 1677839269615",
+    "projectName": "browserstack-percy-appium-webdriverio",
+    "chromeOptions": {
+      "w3c": false
+    },
+    "browserstack.minOSVersion": "5.0",
+    "appPackage": "com.browserstack.demo.app",
+    "appActivity": "host.exp.exponent.MainActivity",
+    "bundleID": "com.browserstack.demo.app",
+    "bundleId": "com.browserstack.demo.app",
+    "nativeWebScreenshot": true,
+    "version": "",
+    "mobile": {
+      "browser": "mobile",
+      "version": "Google Pixel 7-13.0"
+    },
+    "orig_os": "android",
+    "64bit": false,
+    "automationName": "uiautomator2",
+    "disableSuppressAccessibilityService": true,
+    "adbExecTimeout": 120000,
+    "uiautomator2ServerLaunchTimeout": 60000,
+    "newCommandTimeout": 0,
+    "browserstack.appium_version": "1.17.0",
+    "skipServerInstallation": true,
+    "realMobile": "true",
+    "acceptSslCerts": false,
+    "enablePerformanceLogging": false,
+    "chromedriverPorts": [
+      [
+        18100,
+        18110
+      ]
+    ],
+    "chromedriverArgs": [
+      "--adb-port=5038"
+    ],
+    "deviceUDID": "28261FDH20003W",
+    "deviceApiLevel": 33,
+    "platformVersion": "13",
+    "deviceScreenSize": "1080x2400",
+    "deviceScreenDensity": 420,
+    "deviceModel": "Pixel 7",
+    "deviceManufacturer": "Google",
+    "pixelRatio": 2.625,
+    "statBarHeight": 118,
+    "viewportRect": {
+      "left": 0,
+      "top": 118,
+      "width": 1080,
+      "height": 2101
+    },
+    "sessionId": "a0561b6745dd9f41e0e49f03046489c9478ffecd"
+  }
+}

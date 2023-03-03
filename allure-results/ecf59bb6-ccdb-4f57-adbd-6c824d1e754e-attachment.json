@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"percyScreenshot\",\"arguments\":{\"name\":\"Orders Page\",\"percyScreenshotUrl\":\"https://percy.io/api/v1/comparisons/redirect?build_id=25642169&snapshot[name]=Orders%20Page&tag[name]=Samsung%20Galaxy%20A51&tag[os_name]=Android&tag[os_version]=10&tag[width]=1080&tag[height]=2400&tag[orientation]=portrait\",\"status\":\"success\",\"statusMessage\":\"undefined\",\"state\":\"end\"}}",
+  "args": []
+}

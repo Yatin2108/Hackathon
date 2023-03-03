@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"percyScreenshot\",\"arguments\":{\"name\":\"Cart Page\",\"percyScreenshotUrl\":\"https://percy.io/api/v1/comparisons/redirect?build_id=25642169&snapshot[name]=Cart%20Page&tag[name]=iPhone%2012%20Pro&tag[os_name]=iOS&tag[os_version]=14&tag[width]=1170&tag[height]=2532&tag[orientation]=portrait\",\"status\":\"success\",\"statusMessage\":\"undefined\",\"state\":\"end\"}}",
+  "args": []
+}

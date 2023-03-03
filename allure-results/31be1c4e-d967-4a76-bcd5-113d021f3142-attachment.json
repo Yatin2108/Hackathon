@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: User sholud be able to login and order a product\",\"level\":\"info\"}}",
+  "args": []
+}

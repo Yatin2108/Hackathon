@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"percyScreenshot\",\"arguments\":{\"name\":\"Login Form\",\"percyBuildId\":\"25642169\",\"percyBuildUrl\":\"https://percy.io/37e6a18d/hackathon-project/builds/25642169\",\"state\":\"begin\"}}",
+  "args": []
+}

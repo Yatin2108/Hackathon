@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"percyScreenshot\",\"arguments\":{\"name\":\"Login Form Details\",\"percyScreenshotUrl\":\"https://percy.io/api/v1/comparisons/redirect?build_id=25642169&snapshot[name]=Login%20Form%20Details&tag[name]=iPhone%2012%20Mini&tag[os_name]=iOS&tag[os_version]=14&tag[width]=1125&tag[height]=2436&tag[orientation]=portrait\",\"status\":\"success\",\"statusMessage\":\"undefined\",\"state\":\"end\"}}",
+  "args": []
+}

@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"getSessionDetails\"}",
+  "args": []
+}

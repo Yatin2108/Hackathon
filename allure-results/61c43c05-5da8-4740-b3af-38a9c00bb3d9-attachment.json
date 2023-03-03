@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"percyScreenshot\",\"arguments\":{\"name\":\"Login Form\",\"percyScreenshotUrl\":\"https://percy.io/api/v1/comparisons/redirect?build_id=25642169&snapshot[name]=Login%20Form&tag[name]=Google%20Pixel%207&tag[os_name]=Android&tag[os_version]=13&tag[width]=1080&tag[height]=2400&tag[orientation]=portrait\",\"status\":\"success\",\"statusMessage\":\"undefined\",\"state\":\"end\"}}",
+  "args": []
+}
