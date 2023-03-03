@@ -93,39 +93,6 @@ In this section, we will run the tests in parallel on a single device on Browser
     ```
 > Note: By default, this execution would run maximum 2 test threads in parallel on BrowserStack. The parallels can eb modified by updated the `maxInstances` inside `capabilities` object in `resources/conf/wdio-bstack-parallel.conf.js`.
 
-### Mobile application using local or internal environment - Running your tests on BrowserStack using BrowserStackLocal
-
-#### Prerequisites
-
-- Clone the [BrowserStack demo application](https://github.com/browserstack/browserstack-demo-app) repository.
-  ```sh
-  git clone https://github.com/browserstack/browserstack-demo-app
-  ``` 
-- Please follow the README.md on the BrowserStack demo application repository to install and start the dev server on localhost.
-- We will change the response of the `signin` (for the `locked_user`) API endpoint. (File to change: `pages/api/signin.js` line `43`)
-  - The API endpoint respond with a specific error, `Your account has been locked.`.
-  - We will change that to something generic, like: `Something went wrong.`
-- In this section, we will run a single test case that changes the API used in BrowserStack Demo app, in a wat that it interact with you local machine. Refer to the `capabilities` object in `resources/conf/wdio-bstack-local.conf.js` file to change test capabilities for this configuration.
-- Note: You may need to provide additional BrowserStackLocal arguments to successfully connect your localhost environment with BrowserStack infrastructure. (e.g if you are behind firewalls, proxy or VPN).
-- Further details for successfully creating a BrowserStackLocal connection can be found here:
-
-   - [Local Testing with App Automate](https://www.browserstack.com/local-testing/app-automate)
-   - [BrowserStackLocal Java GitHub](https://github.com/browserstack/browserstack-local-java)
-
-### Mobile application using local or internal environment - Run a specific test on BrowserStack using BrowserStackLocal
-
-- How to run the test?
-
-   - To run the default test scenario (e.g. End to End Scenario) on a single BrowserStack device using BrowserStackLocal, use the following command:
-      ```sh
-      npm run bstack-local
-      ```
-## Generating Allure Reports
-
-- Generate Report using the following command: 
-    ```
-    npm run generate-report
-    ```
 ## Additional Resources
 
 - View your test results on the [BrowserStack App Automate Dashboard](https://www.browserstack.com/app-automate)
