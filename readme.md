@@ -83,7 +83,7 @@ More information on [Upload apps from filesystem](https://www.browserstack.com/d
 
 ### Run the entire test suite in parallel on a single BrowserStack device
 
-In this section, we will run the tests in parallel on a single device on Browserstack. Refer to `capabilities` object in `resources/conf/wdio-bstack-parallel.conf.js` file to change test capabilities for this configuration.
+In this section, we will run the E2E tests in parallel on a multiple device on Browserstack. Refer to `capabilities` object in `resources/conf/wdio-bstack.conf.js` file to change test capabilities for this configuration.
 
 - How to run the test?
 
@@ -91,7 +91,7 @@ In this section, we will run the tests in parallel on a single device on Browser
     ```sh
     npm run bstack-single
     ```
-> Note: By default, this execution would run maximum 2 test threads in parallel on BrowserStack. The parallels can eb modified by updated the `maxInstances` inside `capabilities` object in `resources/conf/wdio-bstack-parallel.conf.js`.
+> Note: By default, this execution would run maximum 2 test threads in parallel on BrowserStack. The parallels can eb modified by updated the `maxInstances` inside `capabilities` object in `resources/conf/wdio-bstack.conf.js`.
 
 ## Additional Resources
 
