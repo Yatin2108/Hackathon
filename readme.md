@@ -61,38 +61,6 @@ This repository contains the following WebdriverIO tests:
 
 ---
 
-# On Premise / Self Hosted
-
-This infrastructure points to running the tests on your own machine using simulator or connected devices.
-
-## Prerequisites
-
-- For this infrastructure configuration (i.e on-premise), ensure that the app is downloaded and placed in the `/bin` folder.
-<todo add download urls>
-
-## Running Your Tests
-
-### Run a specific test on your own machine
-
-- How to run the test?
-
-  To run the default test scenario (e.g. End to End Scenario) on your own machine, use the following command:
-    ```sh
-  npm run onprem
-  ```
-  To run a specific test scenario, use the following command with the additional 'spec' argument:
-
-  ```sh
-  npm run onprem-suite -- -- spec orders
-  ```
-### Run the entire test suite on your own machine
-
-- How to run the test?
-
-  To run the entire test suite on your own machine, use the following command:
-  ```sh
-  npm run onprem-suite
-  ```
 # BrowserStack
 
 [BrowserStack](https://browserstack.com) provides instant access to 2,000+ real mobile devices and browsers on a highly reliable cloud infrastructure that effortlessly scales as testing needs grow.
