@@ -81,21 +81,6 @@ curl -u "browserstack_username:browserstack_access_key" \
 
 More information on [Upload apps from filesystem](https://www.browserstack.com/docs/app-automate/appium/upload-app-from-filesystem), [Upload apps using public URL](https://www.browserstack.com/docs/app-automate/appium/upload-app-using-public-url) or [Define custom ID for app](https://www.browserstack.com/docs/app-automate/appium/upload-app-define-custom-id).
 
-### Run a specific test on BrowserStack
-
-In this section, we will run a single test on an Android device on Browserstack. To change test capabilities for this configuration, please refer to the `capabilities` object in `resources/conf/wdio-bstack-single.conf.js` file.
-
-- How to run the test?
-
-   - To run the default test scenario (e.g. End to End Scenario) on a BrowserStack device, use the following command:
-      ```sh
-      npm run bstack-single
-      ```
-  - To run a specific test scenario, use the following command with the additional 'spec' argument:
-    ```sh
-    npm run bstack-suite -- -- spec orders
-    ```
-
 ### Run the entire test suite in parallel on a single BrowserStack device
 
 In this section, we will run the tests in parallel on a single device on Browserstack. Refer to `capabilities` object in `resources/conf/wdio-bstack-parallel.conf.js` file to change test capabilities for this configuration.
@@ -104,20 +89,10 @@ In this section, we will run the tests in parallel on a single device on Browser
 
   - To run the entire test suite in parallel on a single BrowserStack device type, use the following command:
     ```sh
-    npm run bstack-parallel
+    npm run bstack-single
     ```
 > Note: By default, this execution would run maximum 2 test threads in parallel on BrowserStack. The parallels can eb modified by updated the `maxInstances` inside `capabilities` object in `resources/conf/wdio-bstack-parallel.conf.js`.
 
-### Run the entire test suite in parallel on multiple BrowserStack devices
-
-In this section, we will run the tests in parallel on multiple devices on Browserstack. Refer to the `capabilities` object in `resources/conf/wdio-bstack-parallel-devices.conf.js` file to change test capabilities for this configuration.
-
-- How to run the test?
-
-  - To run the entire test suite in parallel on multiple BrowserStack devices, use the following command:
-    ```sh
-    npm run bstack-parallel-devices
-    ```
 ### Mobile application using local or internal environment - Running your tests on BrowserStack using BrowserStackLocal
 
 #### Prerequisites
@@ -145,16 +120,6 @@ In this section, we will run the tests in parallel on multiple devices on Browse
       ```sh
       npm run bstack-local
       ```
-### Mobile application using local or internal environment - Run the entire test suite in parallel on multiple BrowserStack devices using BrowserStackLocal
-
-In this section, we will run the test cases on a mobile application using a local or internal environment in parallel on multiple devices on Browserstack. Refer to the `capabilities` object in `resources/conf/wdio-bstack-local-parallel-devices.conf.js` file to change test capabilities for this configuration.
-
-- How to run the test?
-
-  - To run the entire test suite in parallel on multiple BrowserStack devices using BrowserStackLocal, use the following command:
-    ```sh
-    npm run bstack-local-parallel-devices
-    ```
 ## Generating Allure Reports
 
 - Generate Report using the following command: 
