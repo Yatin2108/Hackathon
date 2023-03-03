@@ -101,7 +101,7 @@ In this section, we will run the E2E App-Percy Visual Regression Tests. Refer to
 
   - To run your App-Percy Visual Regression Test Suite across BrowserStack Devices, use the following command:
     ```sh
-    "percy:test": "percy app:exec -- wdio run resources/conf/wdio-bstack.conf.js
+    percy app:exec -- wdio run resources/conf/wdio-bstack.conf.js
     ```
 > Note: By default, this execution would run maximum 2 test threads in parallel on BrowserStack. The parallels can eb modified by updated the `maxInstances` inside `capabilities` object in `resources/conf/wdio-bstack.conf.js`.
 
